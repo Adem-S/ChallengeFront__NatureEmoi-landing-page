@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+nav {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section,
+footer {
+  margin: 0 5%;
+}
+
+/* HEADER */
+.header {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: center/cover no-repeat url("../images/bg.jpg");
+  min-height: 780px;
+}
+
+.header__logo {
+  margin-left: 20px;
+  width: 100px;
+  height: auto;
+}
+
+.header__nav {
+  margin-left: 30px;
+}
+
+.header__nav a {
+  margin-right: 25px;
+  font-size: 0.7em;
+}
+
+.header__title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 15%;
+  font-size: 5em;
+  margin-left: 60px;
+  font-family: "Abril Fatface";
+}
+
+.header__scroll {
+  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.header__scroll p {
+  font-size: 0.8em;
+  margin-right: 5px;
+}
+
+/* END HEADER */
+/* FOOTER */
+.footer {
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* END FOOTER */
+/* INFOMRATION */
+.information {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.information__content {
+  width: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #add981;
+  font-size: 1.5em;
+}
+
+.information__content i {
+  background-color: red;
+  color: red;
+  color: #add981;
+}
+
+.information__content p {
+  margin-top: 10px;
+  color: black;
+  font-size: 0.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*  END INFOMRATION */
+/* IMAGE PLANTS AND FORM */
+.bestsellers__image1 {
+  background: center/cover no-repeat url("../images/nos_meilleures_ventes/1.jpg");
+}
+
+.bestsellers__image2 {
+  background: center/cover no-repeat url("../images/nos_meilleures_ventes/2.jpg");
+}
+
+.bestsellers__image3 {
+  background: center/cover no-repeat url("../images/nos_meilleures_ventes/3.jpg");
+}
+
+.bestsellers__image4 {
+  background: center/cover no-repeat url("../images/nos_meilleures_ventes/4.jpg");
+}
+
+.our-plants__image1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1 / span 3;
+  background: center/cover no-repeat url("../images/nos_plantes/1.jpg");
+}
+
+.our-plants__image2 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5 / span 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / span 1;
+  background: center/cover no-repeat url("../images/nos_plantes/2.jpg");
+}
+
+.our-plants__image3 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5 / span 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / span 1;
+  background: center/cover no-repeat url("../images/nos_plantes/3.jpg");
+}
+
+.our-plants__image4 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / span 1;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5 / span 3;
+  background: center/cover no-repeat url("../images/nos_plantes/4.jpg");
+}
+
+.our-plants__image5 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3 / span 3;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5 / span 3;
+  background: center/cover no-repeat url("../images/nos_plantes/5.jpg");
+}
+
+.our-plants__image6 {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 1;
+  grid-column: 7 / span 1;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5 / span 3;
+  background: center/cover no-repeat url("../images/nos_plantes/6.jpg");
+}
+
+/* IMAGE PLANTS AND FORM */
+/* CONTENT SECTION */
+.bestsellers__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vw;
+  width: 100%;
+}
+
+.our-plants__container {
+  height: 100vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1em 1fr 1em 1fr 1em 1fr;
+      grid-template-columns: 1fr 1em 1fr 1em 1fr 1em 1fr;
+  -ms-grid-rows: 1fr 1em 1fr 1em 1fr 1em 1fr;
+      grid-template-rows: 1fr 1em 1fr 1em 1fr 1em 1fr;
+}
+
+/* END CONTENT SECTION */
+/* SECTION */
+.section {
+  margin-top: 80px;
+  margin-bottom: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__title {
+  font-size: 3.5em;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: "Abril Fatface";
+  font-weight: 300;
+}
+
+.section__title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 5px solid #add981;
+  width: 0.6em;
+  height: 0px;
+  top: 1.3em;
+  left: 0;
+}
+
+.section__plant {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.section__information {
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffffdf;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.8em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__information a {
+  font-size: 0.6em;
+  background-color: #add981;
+  color: white;
+  padding: 0.8em 1em;
+  border-radius: 30px;
+}
+
+.section__description h2 {
+  font-size: 1em;
+}
+
+.section__description p {
+  font-size: 0.8em;
+  color: #add981;
+}
+
+/* SECTION */
+/* MEADIA */
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    min-height: 680px;
+  }
+  .header__title {
+    font-size: 4em;
+  }
+  .section {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .section__title {
+    font-size: 2.5em;
+  }
+  .bestsellers__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    height: 100vw;
+  }
+  .our-plants__container {
+    height: 100vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 1em;
+  }
+  .section__plant {
+    grid-area: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 12px;
+  }
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header {
+    min-height: 480px;
+  }
+  .header__nav {
+    margin-top: 10px;
+  }
+  .header__nav a {
+    font-size: 1em;
+  }
+  .header__title {
+    font-size: 3em;
+  }
+  .our-plants__container {
+    height: 180vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+/* END MEADIA */
+/*# sourceMappingURL=style.css.map */
